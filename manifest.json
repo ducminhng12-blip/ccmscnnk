@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GET TOKEN",
-  "version": "3.3",
+  "version": "3.4",
   "description": "Đăng nhập hàng loạt MST và lấy Token HDDT",
   "permissions": [
     "storage", 
