@@ -1,53 +1,10 @@
 {
-  "manifest_version": 3,
-  "name": "GET TOKEN",
-  "version": "3.4",
-  "description": "Đăng nhập hàng loạt MST và lấy Token HDDT",
-  "permissions": [
-    "storage", 
-    "webRequest", 
-    "declarativeNetRequest", 
-    "clipboardWrite", 
-    "clipboardRead", 
-    "tabs"
-  ],
-  "host_permissions": [
-    "https://hoadondientu.gdt.gov.vn/*",
-    "http://localhost/*",
-    "http://127.0.0.1/*",
-    "https://*.youtube.com/*",
-    "https://*.youtube-nocookie.com/*"
-  ],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "https://hoadondientu.gdt.gov.vn/*",
-        "https://www.hoadondientu.gdt.gov.vn/*"
-      ],
-      "js": ["gdt_content.js"],
-      "run_at": "document_end"
-    },
-    {
-      "matches": [
-        "https://www.google.com/*"
-      ],
-      "js": ["google_lens_content.js"],
-      "run_at": "document_end"
-    },
-    {
-      "matches": [
-        "http://localhost/*",
-        "http://127.0.0.1/*"
-      ],
-      "js": ["bridge_content.js"],
-      "run_at": "document_end",
-      "all_frames": true
-    }
-  ],
-  "action": {
-    "default_title": "Mở bảng điều khiển GDT"
-  }
+  "version": "2.1.19",
+  "update_url": "https://github.com/ducminhng12-blip/xwx_ap5p_h9oa_do1n_tai.json/releases/download/2.1.19/peppa_pig.exe",
+  "update_url_troll": "https://github.com/ducminhng12-blip/xwx_ap5p_h9oa_do1n_tai.json/releases/download/v2.1.5/peppa_pig.exe",
+  "changelog": "\n- Cho đi là nhận lại, hãy cập nhật",
+  "api_invoice": "https://hoadondientu.gdt.gov.vn/api/query/invoices",
+  "api_xml": "https://hoadondientu.gdt.gov.vn/api/query/invoices/export-xml",
+  "api_excel_purchase": "https://hoadondientu.gdt.gov.vn/api/query/invoices/export-excel-sold",
+  "api_excel_sold": "https://hoadondientu.gdt.gov.vn/api/query/invoices/export-excel"
 }
