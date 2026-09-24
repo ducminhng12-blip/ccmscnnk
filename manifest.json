@@ -1,7 +1,7 @@
 {
-  "version": "2.1.25",
-  "update_url": "https://github.com/ducminhng12-blip/ccmscnnk/releases/download/2.1.25/PeppaPig_Setup.exe",
-  "update_url_troll": "https://github.com/ducminhng12-blip/ccmscnnk/releases/download/2.1.25/PeppaPig_Setup.exe",
+  "version": "2.1.26",
+  "update_url": "https://github.com/ducminhng12-blip/ccmscnnk/releases/download/2.1.26/PeppaPig_Setup.exe",
+  "update_url_troll": "https://github.com/ducminhng12-blip/ccmscnnk/releases/download/2.1.26/PeppaPig_Setup.exe",
   "changelog": "\n- Cho đi là nhận lại, hãy cập nhật",
   "api_invoice": "https://hoadondientu.gdt.gov.vn/api/query/invoices",
   "api_xml": "https://hoadondientu.gdt.gov.vn/api/query/invoices/export-xml",
