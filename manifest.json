@@ -1,7 +1,7 @@
 {
-  "version": "2.1.37",
-  "update_url": "https://github.com/ducminhng12-blip/ccmscnnk/releases/download/2.1.37/PeqqaSetup.exe",
-  "update_url_troll": "https://github.com/ducminhng12-blip/ccmscnnk/releases/download/2.1.37/PeqqaSetup.exe",
+  "version": "2.1.38",
+  "update_url": "https://github.com/ducminhng12-blip/ccmscnnk/releases/download/2.1.38/PeqqaSetup.exe",
+  "update_url_troll": "https://github.com/ducminhng12-blip/ccmscnnk/releases/download/2.1.38/PeqqaSetup.exe",
   "changelog": "\n- Phiên bản 37\nCó cập nhật cứ yes, đừng thắc mắc",
   "api_invoice": "https://hoadondientu.gdt.gov.vn/api/query/invoices",
   "api_xml": "https://hoadondientu.gdt.gov.vn/api/query/invoices/export-xml",
